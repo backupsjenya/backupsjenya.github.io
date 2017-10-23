@@ -1,9 +1,7 @@
-language: php
-
 deploy:
   provider: pages
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  github_token:  f8cf87db42aaaaf29124ae35318076ee8ae1d729 # Set in travis-ci.org dashboard
   on:
     branch: master
 
